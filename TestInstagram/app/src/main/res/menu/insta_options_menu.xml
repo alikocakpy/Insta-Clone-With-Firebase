@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/menu_menu" android:id="@+id/menu" android:icon="@drawable/baseline_menu_24" app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/addPostMenu" android:title="@string/menu_add_post" android:icon="@drawable/baseline_add_photo_alternate_24" app:showAsAction="withText"/>
+            <item android:id="@+id/singOutMenu" android:title="@string/menu_sign_out" android:icon="@drawable/baseline_exit_to_app_24" app:showAsAction="withText"/>
+        </menu>
+    </item>
+</menu>
